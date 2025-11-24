@@ -74,10 +74,4 @@ best_churn_model.pkl
 - Deployed on **Render Web Service**
 - Runs using Gunicorn
 - Exposes a REST API for predictions  
-
-
-⚙️ Local Setup
-
-Install dependencies
-
-pip install -r requirements.txt
+rements.txt

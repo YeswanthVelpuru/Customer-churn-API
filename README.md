@@ -41,23 +41,32 @@ This project is designed with enterprise-ready architecture, making it clean, mo
 
 
 📂 Project Structure
-├── app.py # Flask API
-├── best_churn_model.pkl # Saved best ML model
-├── requirements.txt # Dependencies
-├── Procfile # Render startup command
-├── README.md # Project documentation
-└── .gitignore # Files to ignore in repo
+
+├── app.py
+# Flask API
+├── best_churn_model.pkl
+# Saved best ML model
+├── requirements.txt
+# Dependencies
+├── Procfile 
+# Render startup command
+├── README.md 
+# Project documentation
+└── .gitignore 
+# Files to ignore in repo
 
 
 
 🧠 How It Works
 
 🔍 1. Data Preprocessing
+
 - Handles missing values  
 - Encodes categorical columns using OneHotEncoder  
 - Scales numeric features using StandardScaler  
 
  🤖 2. Model Training
+ 
 Compares:
 - Logistic Regression  
 - Random Forest  
@@ -66,11 +75,14 @@ Compares:
 Best model selected using **F1-Score** (ideal for imbalanced churn datasets).
 
 🧩 3. Model Saving
+
 The final best model is stored as:
+
 best_churn_model.pkl
 
 
 🌐 4. Deployment
+
 - Deployed on **Render Web Service**
 - Runs using Gunicorn
 - Exposes a REST API for predictions  

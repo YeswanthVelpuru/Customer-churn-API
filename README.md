@@ -42,12 +42,18 @@ This project is designed with enterprise-ready architecture, making it clean, mo
 
 📂 Project Structure
 
-├── app.py                   # Flask API
-├── best_churn_model.pkl     # Saved best ML model
-├── requirements.txt.        # Dependencies
-├── Procfile                # Render startup command
-├── README.md                # Project documentation
-└── .gitignore             # Files to ignore in repo
+├── app.py                   
+# Flask API
+├── best_churn_model.pkl    
+# Saved best ML model
+├── requirements.txt.        
+# Dependencies
+├── Procfile                
+# Render startup command
+├── README.md                
+# Project documentation
+└── .gitignore             
+# Files to ignore in repo
 
 
 🧠 How It Works

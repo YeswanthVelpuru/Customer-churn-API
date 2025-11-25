@@ -1,34 +1,30 @@
+# Ignore Python cached files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Virtual environments
+# Ignore virtual environment folders
 venv/
 env/
 .venv/
 
-# Jupyter Notebook checkpoints
+# Ignore local environment config
+*.env
+
+# Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
-# Model files
-*.pkl
-*.joblib
-
-# OS files
+# Ignore OS-specific files
 .DS_Store
 Thumbs.db
 
-# Logs
+# Ignore logs
 *.log
 
-# Render & deployment
-*.out
-*.err
-
-# VSCode settings
+# Ignore IDE settings
 .vscode/
+.idea/
 
-# Environment variables
-.env
-*.env
+# DO NOT ignore .pkl files (important for ML model deployment)
+# *.pkl   <-- REMOVED

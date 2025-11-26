@@ -6,7 +6,6 @@
   <img src="https://img.shields.io/badge/Flask-API-green?logo=flask" />
   <img src="https://img.shields.io/badge/Machine%20Learning-Production-red" />
   <img src="https://img.shields.io/badge/Deployment-Render-purple?logo=render" />
-  <img src="https://img.shields.io/github/license/yeswu/churn-prediction" />
 </p>
 
 
